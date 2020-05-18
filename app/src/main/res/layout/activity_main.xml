@@ -5,6 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+    //se añaden los elementos del arraylist
+<ListView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/marcoLista"></ListView>
 
     //me crea el icono con la estrellita
     <com.google.android.material.floatingactionbutton.FloatingActionButton
